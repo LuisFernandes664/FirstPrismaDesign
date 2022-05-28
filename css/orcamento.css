@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /*background: #242323;*/
+}
+
+/*CONTAINER 1*/
+header{
+    background: #2f2e2e;
+    height: 20%;
+}
+
+/*logotipo*/
+.logo{
+    object-fit: contain;
+    height: 80%;
+    width: 13%;
+    margin-left: 5%;
+    margin-top: 0.8%;
+}
+
+/*relativo ao menu*/
+nav#menu{
+    display: block;
+    display:inline-block;
+    font-family: 'poppins';
+}
+/*FICA COM SELECT A PAGINA QUE EU ESTOU*/
+nav#menu a#select-5{
+    color:#1e9699;
+    text-decoration: none;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+}
+nav#menu li{
+    display: inline;
+    margin: 10px;
+    transition: background-color 1s;
+    padding: 0%;
+}
+nav#menu li:hover{
+    background-color: transparent;
+    color: #1e9699;
+}
+nav#menu a{
+    color:#ffffff;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: #1e9699;
+}
+
+main{
+    height: 90%;
+    background: #242323;
+}
+/*Referente ao formulario em si a "div"*/
+.formulario{
+    /*position: absolute;
+    margin-left: 32%;
+    margin-top: 2%;
+    text-align: center;*/
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#titulo{
+    font-family: sans-serif;
+    color: #1e9699;
+    font-size: 47px;
+    margin-bottom: 10%;
+    text-align: center;
+    padding-top: 20px;
+}
+input{ 
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea{
+    background-color: #2f2e2e;
+    color: white;
+}
+input{
+    background: #242323;
+    text-decoration-color: rgb(255, 255, 255);
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+    
+}
+input[type=text]{
+    width: 20%;
+    border: none;
+    border-bottom: 1px solid white;
+}
+::-webkit-input-placeholder {
+    color: white;
+ }
+/*Corresponde aos dois inputs da data*/
+#data{
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+/*Função de mudar a cor do icon do calendario*/
+::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+}
+#botao{
+    width: 30%;
+    Background-color: #1e9699;
+    color: white;
+    font-family: 'poppins';
+    cursor: pointer;
+}
+#botao-enviar{
+    text-align: center;
+    
+}
+
+/*roda pé*/
+.rodape{
+    background-color: #ffffff;
+    text-align: center;
+    height: 50px;
+}
+.final{
+    position: absolute;
+    color: #000000;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 40%;
+}

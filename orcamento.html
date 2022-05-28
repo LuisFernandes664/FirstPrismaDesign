@@ -1,0 +1,62 @@
+<html>
+<head>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/orcamento.css">
+    <title>Prisma Design</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo">
+
+        <nav id="menu">
+            <ul type="disc">
+                <li><a href="index.html" >INÍCIO</a></li>
+                <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+                <li><a href="portfolio.html">PORTFÓLIO</a></li>
+                <li><a href="index.html #scroll">CONTATO</a></li>
+                <li><a href="orcamento.html" id="select-5">ORÇAMENTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+            
+
+                <form action="https://api.staticforms.xyz/submit" name="form_contato" method="POST">
+                    <H1 id="Titulo">Orçamento</H1>
+                    <input type="hidden" name="accessKey" value="7ba280d2-0e83-4667-a03a-02edf84abe92"> <!--verificação da api do site-->
+                    <input type="hidden" name="redirectTo" value="https://www.instagram.com/weareprisma_design/"> <!--Site que vai redirecionar-->
+                            <input type="text" name="name" id="tnome" placeholder="Nome*" style="width: 232px; margin-right: 20px;" required>
+                                <input type="text" name="name" id="" placeholder="Apelido*" style="width: 232px;" required>
+                            <br>
+                            <input type="text" name="empresa" id="" placeholder="Empresa" style="width: 100%;">
+                            <br>
+                            <input type="tel" name="phone" id="" placeholder="Telefone*" style="width: 100%;" required>
+                            <br>
+                            <br>
+                            <br>
+                            <input type="date" name="data_inicio" id="Data" placeholder="Data de Início" style="width: 232px; margin-right: 20px;">
+                                <input type="date" name="data_fim" id="Data" placeholder="Data Limite" style="width: 232px;">
+                            <br>
+                            <!--<input type="text" name="descricao" id="" placeholder="Descrição" style="width: 100%;" required>-->
+                            <br>
+                            <textarea name="message" placeholder="*Escreva aqui o que pretende..." id="" cols="65" rows="5" required></textarea>
+                            <br>
+                            <input type="number" name="valor_maximo_projeto" id="" placeholder="Valor máximo para a realização do projeto" style="width: 100%;">
+                            <br>
+                            <input type="text" name="tipo_projeto" id="" placeholder="Tipo de Projeto" style="width: 100%;">
+                            <br>
+                            <input type="email" name="email" id="" placeholder="Email*" style="width: 100%;" required>
+                            <br> 
+                            <br>
+                        <div id="botao-enviar">
+                            <input type="submit" value="Enviar" name="botao" id="botao">
+                        </div>
+                </form>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p class="final">&copy; 2018 POR PRISMA CREATIVE DESIGN</p>
+    </footer>
+</body>
+</html>
